@@ -1,0 +1,26 @@
+A Recommender System predicts the possibility that a user would favor an item. Based on user search and former user interaction with the data source that the system takes the learning from (besides the data from other users, or historical trends), the system is capable of recommending an item to a user. Example Netflix recommend movies that they think we would like
+
+4. TYPES OF RECOMMENDATION
+CONTENT BASED RECOMMENDATION Focus on the attributes of the items and give you recommendations based on the similarity between them. This ued very useful to recommend when user search. example when user search salman khan movies model recommend that movies in whin salman khan keyword matchs
+APRIORI ALGORITHOM BASED RECOMMENDATION Apriori algorithm works on the principle of Association Rule Mining. ssociation rule mining is a technique to identify underlying relations between different items. This relationship can be a similarity between items on how frequently they are bought or how similar users bought it.
+COLLABRATIVE FILTTRING(CF) Produces recommendations based on the knowledge of users' attitude to the items. that it uses the "wisdom of crowds" to recommend items. You can think of this something like Amazon, based on other people's shopping experience Amazon will suggest items that you might enjoy. Further can be divided into two parts:
+
+Memory-Based Collaborative Filtering- The memory-based approach uses user rating data to compute the similarity between users or items. Typical examples of this approach are neighbourhood-based CF and item-based/user-based top-N recommendations. For example, in user based approaches, the value of ratings user u gives to item i is calculated as an aggregation of some similar users' rating of the item:
+
+Model-Based Collaborating Filtering_ In this approach, models are developed using different data mining, machine learning algorithms to predict users' rating of unrated items. There are many model-based CF algorithms. Bayesian networks, clustering models, latent semantic models such as singular value decomposition, probabilistic latent semantic analysis, multiple multiplicative factor, latent Dirichlet allocation and Markov decision process based models.
+
+5. ALGORITHOMS
+CONTANT BASED RECOMMENDATION cosine similarity algorithm
+APRIORI ALGORITHM BASED RECOMMENDATION apriori algorithm
+COLLABRETIVE FILTRING KNN
+6. APPLICATION
+Use in social networking web for recommending post and profile relevent to user
+Use in e-commerce website for recommending relevent products
+Use in entertanment website for recommending relevent contant
+It's application in about every type of web
+7. DATA CLEANING
+formating data in useable format
+droping unrelevent columns
+removing outlier using imputer of deletion
+generating new relevent feature(colums) based on existing columns
+removing null values
